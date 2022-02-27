@@ -8,3 +8,14 @@ btn.addEventListener('click', function() {
     console.log('numVal: ' + numVal);
     num.innerHTML = numVal + 1;
 })
+
+
+class Test {
+    #a = 1
+    b = 2
+}
+
+const tt = new Test()
+// TODO del
+console.log('tt.a', tt.a);
+console.log('tt.b', tt.b);
